@@ -1,0 +1,25 @@
+/* Statistics */
+
+.statistics {
+    display: grid;
+
+    column-gap: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+}
+
+.statistics__value {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 1;
+
+    display: block;
+
+    margin-block-end: 6px;
+}
+
+.statistics__text {
+    font-weight: 500;
+
+    display: block;
+}

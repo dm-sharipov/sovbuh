@@ -1,0 +1,30 @@
+/* Header */
+
+@import "./navigation.css";
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 20px 0 var(--color-black-20);
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 500;
+
+    display: block;
+
+    letter-spacing: -1px;
+}
+
+.header__contact {
+    font-size: 16px;
+
+    padding: 15px 20px;
+}

@@ -1,0 +1,43 @@
+@import "./fonts.css";
+
+@import "./app.css";
+
+@import "./visually-hidden.css";
+
+@import "./list-reset.css";
+
+@import "./container.css";
+
+@import "./button.css";
+
+@import "./title.css";
+
+@import "./subtitle.css";
+
+@import "./card.css";
+
+@import "./scrollTop.css";
+
+@import "./hero.css";
+
+@import "./advantages.css";
+
+@import "./services.css";
+
+@import "./company.css";
+
+@import "./team.css";
+
+@import "./reviews.css";
+
+@import "./faq.css";
+
+@import "./contacts.css";
+
+@import "./header.css";
+
+@import "./main.css";
+
+@import "./footer.css";
+
+@import "./page.css";

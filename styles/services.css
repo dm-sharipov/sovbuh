@@ -1,0 +1,32 @@
+/* Services */
+
+@import "./services-card.css";
+
+.services {
+    scroll-margin-top: var(--scroll-margin);
+}
+
+.services__content {
+    padding: 60px 40px;
+
+    border-radius: 40px;
+    background-color: var(--color-mine-shaft);
+}
+
+.services__title {
+    color: var(--color-white);
+
+    margin-block-end: 48px;
+}
+
+.services__list {
+    display: grid;
+
+    column-gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-block-end: 32px;
+}
+
+.services__links {
+    text-align: center;
+}

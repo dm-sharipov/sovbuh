@@ -1,0 +1,41 @@
+/* Reviews */
+
+.reviews {
+    scroll-margin-top: var(--scroll-margin);
+}
+
+.reviews__title {
+    margin-block-end: 48px;
+}
+
+.reviews__list {
+    display: grid;
+
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.reviews__item {
+    padding: 32px;
+}
+
+.reviews__photo {
+    display: block;
+
+    width: 160px;
+    height: 160px;
+
+    border-radius: 50%;
+
+    margin-block-end: 20px;
+}
+
+.reviews__name {
+    font-size: 24px;
+
+    margin-block-end: 12px;
+}
+
+.reviews__text {
+    margin: 0;
+}

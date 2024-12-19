@@ -1,0 +1,35 @@
+/* Main */
+
+.main__hero {
+    margin-bottom: var(--section-spacing-half);
+}
+
+.main__advantages {
+    margin-bottom: var(--section-spacing);
+}
+
+.main__services {
+    margin-bottom: var(--section-spacing);
+}
+
+.main__company {
+    margin-bottom: var(--section-spacing);
+}
+
+.main__team {
+    margin-bottom: var(--section-spacing);
+}
+
+.main__reviews {
+    margin-bottom: var(--section-spacing);
+}
+
+.main__faq {
+    margin-bottom: var(--section-spacing);
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) {
+}

@@ -1,0 +1,46 @@
+/* Page */
+
+.page {
+    color: var(--color-mine-shaft);
+    background-color: var(--color-athens-gray);
+
+    padding-block-end: var(--section-spacing);
+    scroll-behavior: smooth;
+}
+
+.page__body {
+    font-family: var(--font-family-text);
+    font-size: 18px;
+    line-height: 1.4;
+
+    margin: 0;
+}
+
+.page__header {
+    position: fixed;
+    z-index: 100;
+    top: 24px;
+    left: 0;
+
+    width: 100%;
+}
+
+.page__scrollTop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+
+    visibility: hidden;
+
+    transform: translateY(100%);
+
+    opacity: 0;
+}
+
+.page__scrollTop--visible {
+    visibility: visible;
+
+    transform: translateY(0);
+
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+/* Navigation */
+
+.navigation__list {
+    display: flex;
+    align-items: center;
+
+    column-gap: 6px;
+}
+
+.navigation__link {
+    font-size: 20px;
+    font-weight: 500;
+
+    display: block;
+
+    padding: 10px 20px;
+
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: color;
+    text-decoration: none;
+    letter-spacing: -1px;
+
+    color: inherit;
+}
+
+.navigation__link:hover {
+    color: var(--color-crimson);
+}

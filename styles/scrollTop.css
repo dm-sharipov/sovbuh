@@ -1,0 +1,27 @@
+/* ScrollTop */
+
+.scrollTop {
+    display: block;
+
+    padding: 10px;
+
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+    transition-property: background-color, color, opacity, transform, visibility;
+
+    color: inherit;
+    border-radius: 50%;
+    background-color: var(--color-white-80);
+    box-shadow: 0 0 20px 0 var(--color-black-20);
+}
+
+.scrollTop:hover {
+    color: var(--color-white);
+    background-color: var(--color-mine-shaft);
+}
+
+.scrollTop__icon {
+    display: block;
+
+    fill: currentColor;
+}

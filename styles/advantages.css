@@ -1,0 +1,31 @@
+/* Advantages */
+
+.advantages {
+}
+
+.advantages__list {
+    display: grid;
+
+    column-gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.advantages__item {
+    padding: 24px;
+}
+
+.advantages__image {
+    display: block;
+
+    margin-block-end: 20px;
+}
+
+.advantages__subtitle {
+    font-size: 22px;
+
+    margin-block-end: 16px;
+}
+
+.advantages__text {
+    margin: 0;
+}

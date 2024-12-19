@@ -1,0 +1,36 @@
+/* App */
+
+:root {
+    --color-athens-gray: #e7e9f1;
+    --color-black: #000000;
+    --color-black-20: rgb(0 0 0 / 20%);
+    --color-black-50: rgb(0 0 0 / 50%);
+    --color-crimson: #ed1c39;
+    --color-gray: #8d8d8d;
+    --color-mine-shaft: #222222;
+    --color-shiraz: #a70b20;
+    --color-white: #ffffff;
+    --color-white-80: rgb(255 255 255 / 80%);
+    --font-family-text: "Inter", sans-serif;
+    --scroll-margin: 120px;
+    --section-spacing: 120px;
+    --section-spacing-half: 60px;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        --font-family-text: "Inter Variable", sans-serif;
+    }
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:focus-visible {
+    border-radius: 2px;
+    outline: max(3px, 0.08em) solid var(--color-crimson);
+    outline-offset: 2px;
+}
