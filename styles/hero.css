@@ -12,8 +12,7 @@
 
     padding-block: 280px 172px;
 }
-
-.hero::before {
+../ .hero::before {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -24,7 +23,7 @@
 
     content: "";
 
-    background-image: url("images/hero/bg.jpg");
+    background-image: url("../images/hero/bg.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
