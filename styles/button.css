@@ -20,9 +20,11 @@
     color: var(--color-white);
     border: none;
     border-radius: 0.8em;
-    background-color: var(--color-crimson);
+    background-color: var(--color-french-gray);
+    background-color: #c7c8cc;
+    color: var(--color-mine-shaft);
 }
 
 .button:hover {
-    background-color: var(--color-shiraz);
+    background-color: var(--color-bombay);
 }
