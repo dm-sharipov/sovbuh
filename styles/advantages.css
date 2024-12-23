@@ -33,3 +33,7 @@
 .advantages__text p:not(:last-child) {
     margin-block-end: 16px;
 }
+
+.advantages__text b {
+    font-weight: 600;
+}
