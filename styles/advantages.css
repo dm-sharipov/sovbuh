@@ -26,6 +26,10 @@
     margin-block-end: 16px;
 }
 
-.advantages__text {
+.advantages__text p {
     margin: 0;
+}
+
+.advantages__text p:not(:last-child) {
+    margin-block-end: 16px;
 }
