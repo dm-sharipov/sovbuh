@@ -15,12 +15,7 @@
 }
 
 .header__logo {
-    font-size: 24px;
-    font-weight: 500;
-
     display: block;
-
-    letter-spacing: -1px;
 }
 
 .header__contact {
