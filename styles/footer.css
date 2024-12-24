@@ -1,22 +1,11 @@
 /* Footer */
 
 .footer {
-    font-size: 16px;
-
-    color: var(--color-grey-49--60);
-    background-color: var(--color-pearl-bush);
-
-    padding-block-start: 40px;
+    padding-block: var(--section-spacing-half);
 }
 
-@media (max-width: 767px) {
-    .footer {
-        padding-block-end: 60px;
-    }
-}
+.footer__logo {
+    display: block;
 
-@media (min-width: 768px) {
-    .footer {
-        padding-block-end: 72px;
-    }
+    margin-inline: auto;
 }

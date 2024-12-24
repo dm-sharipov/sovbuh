@@ -4,7 +4,6 @@
     color: var(--color-mine-shaft);
     background-color: var(--color-athens-gray);
 
-    padding-block-end: var(--section-spacing);
     scroll-behavior: smooth;
 }
 
