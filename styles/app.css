@@ -1,14 +1,14 @@
 /* App */
 
 :root {
+    --color-amber: #ffc107;
     --color-athens-gray: #e7e9f1;
     --color-black: #000000;
     --color-black-20: rgb(0 0 0 / 20%);
     --color-black-50: rgb(0 0 0 / 50%);
-    --color-french-gray: #c7c8cc;
     --color-gray: #8d8d8d;
     --color-mine-shaft: #222222;
-    --color-bombay: #b4b4b8;
+    --color-orange-peel: #ffa000;
     --color-white: #ffffff;
     --color-white-80: rgb(255 255 255 / 80%);
     --font-family-text: "Inter", sans-serif;
@@ -31,6 +31,6 @@
 
 :focus-visible {
     border-radius: 2px;
-    outline: max(3px, 0.08em) solid var(--color-french-gray);
+    outline: max(3px, 0.08em) solid var(--color-orange-peel);
     outline-offset: 2px;
 }

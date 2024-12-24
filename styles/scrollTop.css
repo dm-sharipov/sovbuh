@@ -7,7 +7,7 @@
 
     transition-timing-function: ease;
     transition-duration: 0.3s;
-    transition-property: background-color, color, opacity, transform, visibility;
+    transition-property: background-color, opacity, transform, visibility;
 
     color: inherit;
     border-radius: 50%;
@@ -16,8 +16,7 @@
 }
 
 .scrollTop:hover {
-    color: var(--color-white);
-    background-color: var(--color-mine-shaft);
+    background-color: var(--color-orange-peel);
 }
 
 .scrollTop__icon {
