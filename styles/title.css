@@ -1,17 +1,25 @@
 /* Title */
 
 .title {
-    font-size: 60px;
     font-weight: 700;
-    line-height: 1;
 
     margin: 0;
-
-    letter-spacing: -2px;
 }
 
 @media (max-width: 767px) {
+    .title {
+        font-size: 36px;
+        line-height: 1.2;
+
+        letter-spacing: -1px;
+    }
 }
 
 @media (min-width: 768px) {
+    .title {
+        font-size: 60px;
+        line-height: 1;
+
+        letter-spacing: -2px;
+    }
 }
