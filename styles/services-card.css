@@ -1,18 +1,12 @@
 /* Services card */
 
-.services-card {
-    padding: 40px;
-}
-
 .services-card__subtitle {
     margin-block-end: 16px;
 }
 
 .services-card__text {
     margin: 0;
-    margin-bottom: 20px;
-
-    color: var(--color-gray);
+    margin-bottom: 32px;
 }
 
 .services-card__item {
@@ -43,4 +37,16 @@
 
 .services-card__item:not(:last-child) {
     margin-block-end: 16px;
+}
+
+@media (max-width: 767px) {
+    .services-card {
+        padding: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .services-card {
+        padding: 28px;
+    }
 }

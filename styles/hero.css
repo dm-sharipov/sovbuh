@@ -8,9 +8,7 @@
     text-align: center;
 
     color: var(--color-white);
-    background-color: var(--color-black-50);
-
-    padding-block: 280px 172px;
+    background-color: var(--color-black-60);
 }
 
 .hero::before {
@@ -44,7 +42,6 @@
 
 .hero__title {
     font-family: var(--font-family-heading);
-    font-size: 52px;
     font-weight: 600;
     line-height: 1;
 
@@ -52,21 +49,15 @@
 
     letter-spacing: -1px;
 
-    color: var(--color-white-80);
-
     margin-block-end: 32px;
 }
 
 .hero__text {
-    font-size: 20px;
     font-weight: 500;
 
     max-width: 600px;
     margin: 0;
     margin-bottom: 52px;
-}
-
-.hero__contact {
 }
 
 @keyframes increaseBackground {
@@ -76,5 +67,29 @@
 
     to {
         transform: scale(1);
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding-block: 160px 96px;
+    }
+
+    .hero__title {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding-block: 280px 184px;
+    }
+
+    .hero__title {
+        font-size: 52px;
+    }
+
+    .hero__text {
+        font-size: 24px;
     }
 }

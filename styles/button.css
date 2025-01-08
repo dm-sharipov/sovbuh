@@ -2,13 +2,11 @@
 
 .button {
     font-family: var(--font-family-text);
-    font-size: 24px;
     font-weight: 500;
-    line-height: 1.4;
 
     display: inline-block;
 
-    padding: 20px 60px;
+    padding: 20px 40px;
 
     cursor: pointer;
     transition-timing-function: ease-in-out;
@@ -25,4 +23,18 @@
 
 .button:hover {
     background-color: var(--color-orange-peel);
+}
+
+@media (max-width: 767px) {
+    .button {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 24px;
+        line-height: 32px;
+    }
 }

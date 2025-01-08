@@ -7,26 +7,54 @@
 }
 
 .services__content {
-    padding: 60px 40px;
-
-    border-radius: 40px;
     background-color: var(--color-mine-shaft);
 }
 
 .services__title {
     color: var(--color-white);
-
-    margin-block-end: 48px;
 }
 
 .services__list {
     display: grid;
-
-    column-gap: 24px;
-    grid-template-columns: repeat(2, 1fr);
-    margin-block-end: 32px;
 }
 
 .services__links {
     text-align: center;
+}
+
+@media (max-width: 767px) {
+    .services__container {
+        padding-inline: 0;
+    }
+
+    .services__content {
+        padding: 24px 16px;
+    }
+
+    .services__title {
+        margin-block-end: 32px;
+    }
+
+    .services__list {
+        gap: 16px;
+        margin-block-end: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .services__content {
+        padding: 48px 32px;
+
+        border-radius: 32px;
+    }
+
+    .services__title {
+        margin-block-end: 48px;
+    }
+
+    .services__list {
+        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 428px), 1fr));
+        margin-block-end: 48px;
+    }
 }

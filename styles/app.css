@@ -5,16 +5,28 @@
     --color-athens-gray: #e7e9f1;
     --color-black: #000000;
     --color-black-20: rgb(0 0 0 / 20%);
-    --color-black-50: rgb(0 0 0 / 50%);
-    --color-gray: #8d8d8d;
+    --color-black-60: rgb(0 0 0 / 60%);
     --color-mine-shaft: #222222;
     --color-orange-peel: #ffa000;
     --color-white: #ffffff;
     --color-white-80: rgb(255 255 255 / 80%);
     --font-family-text: "Inter", sans-serif;
-    --scroll-margin: 120px;
-    --section-spacing: 120px;
-    --section-spacing-half: 60px;
+}
+
+@media (max-width: 767px) {
+    :root {
+        --scroll-margin: 90px;
+        --section-spacing: 90px;
+        --section-spacing-half: 48px;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --scroll-margin: 120px;
+        --section-spacing: 120px;
+        --section-spacing-half: 60px;
+    }
 }
 
 @supports (font-variation-settings: normal) {

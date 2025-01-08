@@ -9,25 +9,13 @@
 
 .page__body {
     font-family: var(--font-family-text);
-    font-size: 18px;
     line-height: 1.4;
 
     margin: 0;
 }
 
-.page__header {
-    position: fixed;
-    z-index: 100;
-    top: 24px;
-    left: 0;
-
-    width: 100%;
-}
-
 .page__scrollTop {
     position: fixed;
-    right: 40px;
-    bottom: 40px;
 
     visibility: hidden;
 
@@ -42,4 +30,46 @@
     transform: translateY(0);
 
     opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .page__header {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+    }
+
+    .page__body {
+        font-size: 16px;
+
+        min-width: 320px;
+    }
+
+    .page__scrollTop {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page__body {
+        font-size: 18px;
+    }
+
+    .page__header {
+        position: fixed;
+        z-index: 100;
+        top: 24px;
+        left: 0;
+
+        width: 100%;
+    }
+
+    .page__scrollTop {
+        right: 40px;
+        bottom: 40px;
+    }
 }
