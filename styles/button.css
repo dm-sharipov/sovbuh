@@ -19,8 +19,10 @@
     background-color: var(--color-amber);
 }
 
-.button:hover {
-    background-color: var(--color-orange-peel);
+@media (any-hover: hover) {
+    .button:hover {
+        background-color: var(--color-orange-peel);
+    }
 }
 
 @media (max-width: 767px) {

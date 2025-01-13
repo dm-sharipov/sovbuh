@@ -15,12 +15,14 @@
     box-shadow: 0 0 20px 0 var(--color-black-20);
 }
 
-.scroll-top:hover {
-    background-color: var(--color-orange-peel);
-}
-
 .scroll-top__icon {
     display: block;
 
     fill: currentColor;
+}
+
+@media (any-hover: hover) {
+    .scroll-top:hover {
+        background-color: var(--color-orange-peel);
+    }
 }

@@ -22,8 +22,10 @@
     color: inherit;
 }
 
-.menu__link:hover {
-    color: var(--color-orange-peel);
+@media (any-hover: hover) {
+    .menu__link:hover {
+        color: var(--color-orange-peel);
+    }
 }
 
 @media (max-width: 767px) {

@@ -19,10 +19,6 @@
     row-gap: 4px;
 }
 
-.menu-button:hover {
-    color: var(--color-orange-peel);
-}
-
 .menu-button::before,
 .menu-button::after {
     position: relative;
@@ -61,4 +57,10 @@
 
 .menu-button--opened span {
     opacity: 0;
+}
+
+@media (any-hover: hover) {
+    .menu-button:hover {
+        color: var(--color-orange-peel);
+    }
 }

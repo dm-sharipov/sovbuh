@@ -23,8 +23,10 @@ a.contacts__value {
     color: inherit;
 }
 
-a.contacts__value:hover {
-    color: var(--color-orange-peel);
+@media (any-hover: hover) {
+    a.contacts__value:hover {
+        color: var(--color-orange-peel);
+    }
 }
 
 @media (max-width: 767px) {
