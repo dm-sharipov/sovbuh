@@ -1,7 +1,5 @@
 /* Company */
 
-@import "./statistics.css";
-
 .company {
     scroll-margin-top: var(--scroll-margin);
 }

@@ -57,7 +57,7 @@
 
     max-width: 600px;
     margin: 0;
-    margin-bottom: 52px;
+    margin-block-end: 52px;
 }
 
 @keyframes increaseBackground {

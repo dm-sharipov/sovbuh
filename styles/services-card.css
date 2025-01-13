@@ -6,7 +6,8 @@
 
 .services-card__text {
     margin: 0;
-    margin-bottom: 32px;
+
+    margin-block-end: 32px;
 }
 
 .services-card__item {

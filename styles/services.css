@@ -1,7 +1,5 @@
 /* Services */
 
-@import "./services-card.css";
-
 .services {
     scroll-margin-top: var(--scroll-margin);
 }

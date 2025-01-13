@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-.page__scrollTop {
+.page__scroll-top {
     position: fixed;
 
     visibility: hidden;
@@ -24,7 +24,7 @@
     opacity: 0;
 }
 
-.page__scrollTop--visible {
+.page__scroll-top--visible {
     visibility: visible;
 
     transform: translateY(0);
@@ -48,7 +48,7 @@
         min-width: 320px;
     }
 
-    .page__scrollTop {
+    .page__scroll-top {
         right: 20px;
         bottom: 20px;
     }
@@ -68,7 +68,7 @@
         width: 100%;
     }
 
-    .page__scrollTop {
+    .page__scroll-top {
         right: 40px;
         bottom: 40px;
     }
