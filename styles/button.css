@@ -6,8 +6,6 @@
 
     display: inline-block;
 
-    padding: 20px 40px;
-
     cursor: pointer;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
@@ -29,6 +27,8 @@
     .button {
         font-size: 20px;
         line-height: 28px;
+
+        padding: 16px 40px;
     }
 }
 
@@ -36,5 +36,7 @@
     .button {
         font-size: 24px;
         line-height: 32px;
+
+        padding: 20px 40px;
     }
 }
