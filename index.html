@@ -81,38 +81,53 @@
                     alt="Аутсор-СовБух"
                 />
 
-                <nav class="header__navigation navigation">
-                    <ul class="navigation__list list-reset">
-                        <li class="navigation__item">
+                <button
+                    class="header__menu-button menu-button"
+                    id="header-menu-button"
+                    type="button"
+                    aria-expanded="false"
+                    aria-controls="header-menu"
+                    aria-label="Переключить меню"
+                >
+                    <span></span>
+                </button>
+
+                <nav
+                    class="header__menu menu"
+                    id="header-menu"
+                    aria-label="Основная"
+                >
+                    <ul class="menu__list list-reset">
+                        <li class="menu__item">
                             <a
-                                class="navigation__link"
+                                class="menu__link"
                                 href="#services"
                             >
                                 Наши услуги
                             </a>
                         </li>
 
-                        <li class="navigation__item">
+                        <li class="menu__item">
                             <a
-                                class="navigation__link"
+                                class="menu__link"
                                 href="#company"
                             >
                                 О компании
                             </a>
                         </li>
 
-                        <li class="navigation__item">
+                        <li class="menu__item">
                             <a
-                                class="navigation__link"
+                                class="menu__link"
                                 href="#reviews"
                             >
                                 Отзывы
                             </a>
                         </li>
 
-                        <li class="navigation__item">
+                        <li class="menu__item">
                             <a
-                                class="navigation__link"
+                                class="menu__link"
                                 href="#contacts"
                             >
                                 Контакты
@@ -120,13 +135,6 @@
                         </li>
                     </ul>
                 </nav>
-
-                <a
-                    class="header__contact button"
-                    href="#contacts"
-                >
-                    Связаться
-                </a>
             </div>
         </header>
 

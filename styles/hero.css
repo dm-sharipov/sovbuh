@@ -57,6 +57,7 @@
 
     max-width: 600px;
     margin: 0;
+
     margin-block-end: 52px;
 }
 
@@ -71,12 +72,12 @@
 }
 
 @media (max-width: 767px) {
-    .hero {
-        padding-block: 160px 96px;
-    }
-
     .hero__title {
         font-size: 32px;
+    }
+
+    .hero {
+        padding-block: 160px 96px;
     }
 }
 

@@ -33,13 +33,20 @@
 }
 
 @media (max-width: 767px) {
-    .page__header {
-        position: fixed;
-        z-index: 100;
-        top: 0;
-        left: 0;
+    @media (min-height: 480px) {
+        .page__body {
+            padding-block-start: 64px;
+        }
 
-        width: 100%;
+        .page__header {
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            min-width: inherit;
+        }
     }
 
     .page__body {

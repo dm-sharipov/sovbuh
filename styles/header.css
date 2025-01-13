@@ -1,10 +1,9 @@
 /* Header */
 
-@import "./navigation.css";
-
 .header__container {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     background-color: var(--color-white);
@@ -24,14 +23,6 @@
         width: 200px;
         height: 44px;
     }
-
-    .header__navigation {
-        display: none;
-    }
-
-    .header__contact {
-        display: none;
-    }
 }
 
 @media (min-width: 768px) {
@@ -44,11 +35,23 @@
 
         border-radius: 20px;
     }
+}
 
-    .header__contact {
-        font-size: 16px;
-        line-height: 24px;
+@media (max-width: 991px) {
+    .header__menu {
+        display: none;
+    }
 
-        padding: 12px 20px;
+    .menu-button--opened + .header__menu {
+        display: block;
+        flex-basis: 100%;
+
+        padding-block-start: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header__menu-button {
+        display: none;
     }
 }
